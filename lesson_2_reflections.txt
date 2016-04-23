@@ -1,0 +1,17 @@
+Commands:
+git init - create an initial git repository (at start theres no commit, you have to add your own commit from start)
+
+git status - see what changes are there to your file
+
+git add 'file_name' - this adds your file to the staging area before a commit
+
+
+
+
+
+Reflections:
+What happens when you initialize a repository? Why do you need to do it?
+when you initilaise the repository then you create the git file. This is where the version control may be stored. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area can offer a waiting place so that any changes or errors can be fixed before a commit. The owrking directory.. lord alone knows and for the repository, well thats where you want fixed stuff chillling.. or stuff you think is fixed, logically.

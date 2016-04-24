@@ -5,9 +5,17 @@ git status - see what changes are there to your file
 
 git add 'file_name' - this adds your file to the staging area before a commit
 
+git diff - with no arguments compares the files in the working directory and the staging area, not within the repository
 
+git diff --staged - shows the diff between the staging area and the repository
 
+git reset --hard - removes changes from the working directoruy and the staging area.
 
+git branch - shows the branches. if i run giot branch with a command then the branch will be created.
+
+git checkout - to switch to a new branch as well
+
+git log --graph --oneline master 'file_name' - shows the changes for the branch that happened in a log format.
 
 Reflections:
 What happens when you initialize a repository? Why do you need to do it?
@@ -15,3 +23,12 @@ when you initilaise the repository then you create the git file. This is where t
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area can offer a waiting place so that any changes or errors can be fixed before a commit. The owrking directory.. lord alone knows and for the repository, well thats where you want fixed stuff chillling.. or stuff you think is fixed, logically.
+
+How can you use the staging area to make sure you have one commit per logical change?
+maybe use git diff 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can help in several ways, for example if you want to try experimental code oir if you want to change something or add something that makes the logic different eg. doing somwthing like a feature or bug differently. your master branch should be the prodiction qulaoity branch that always work. you can have feature branches etc.
+
+How do the diagrams help you visualize the branch structure?
+By allowing you to see the actual structure and understand where you may have lost committs, you cna visualize where there may be issues etc with your brnacvh structure.

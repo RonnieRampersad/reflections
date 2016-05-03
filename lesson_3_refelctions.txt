@@ -1,0 +1,21 @@
+Commands:
+git remote
+git remote add | adds a remote e.g. origim remote at the URL secified by github
+git remote -v |verbose showing the push and pull
+git push | push to remote
+git pull | pull from remote
+
+
+
+
+Reflections:
+When would you want to use a remote repository rather than keeping all your work local?
+	This would be useful for several resons, firstly when more than one person is working on the file  and when youre like me nad have no space on your local computer - though this is a bad reason for doing it :) Where the hell did my file go?
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	You know for shit like errors n stuff. you dont want git pulling crap code.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	forks are copies from another person repository. you may not have acces to change it so a fork is necessary
+	clones are copies within the same place eg. local machine to local machine etc.
+	brnaches are sections of the code timeline

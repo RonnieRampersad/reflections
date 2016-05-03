@@ -1,0 +1,8 @@
+Commands:
+git remote
+git remote add - adds a remote e.g. origim remote at the URL secified by github
+git remote -v - verbose showing the push and pull
+
+
+
+Reflections:

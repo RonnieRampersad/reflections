@@ -6,3 +6,5 @@ git remote -v - verbose showing the push and pull
 
 
 Reflections:
+When would you want to use a remote repository rather than keeping all your work local?
+	This would be useful for several resons, firstly when more than one person is working on the file  and when youre like me nad have no space on your local computer - though this is a bad reason for doing it :)

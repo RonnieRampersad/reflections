@@ -17,6 +17,14 @@ git checkout - to switch to a new branch as well
 
 git log --graph --oneline master 'file_name' - shows the changes for the branch that happened in a log format.
 
+git merge 'branch_master' 'branch_other' - this merges the branches you have seprated with the master.
+
+git show - after o=yu have merged branches, the commits are in order of time stamp, this means diff between a commit and the one preceding it may not necessarily be the same parent. To see the diff between a commit and its parent use gi show.
+
+git branch -d 'branch' - removes the branch. do this afte your merge though.
+
+
+
 Reflections:
 What happens when you initialize a repository? Why do you need to do it?
 when you initilaise the repository then you create the git file. This is where the version control may be stored. 
@@ -32,3 +40,6 @@ Branches can help in several ways, for example if you want to try experimental c
 
 How do the diagrams help you visualize the branch structure?
 By allowing you to see the actual structure and understand where you may have lost committs, you cna visualize where there may be issues etc with your brnacvh structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+MErging two brnaches allows for all changes made on the brnaches to be included in your master file or production file. This will show where the files where and where changes were made.

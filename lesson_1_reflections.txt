@@ -1,5 +1,18 @@
-subl~ launches sublime
+Commands:
 
+subl launches sublime
+
+git diff 'first_commit_id' 'second_commit_id'- Compare two commits, printing each line that is present in one commit but not the other
+
+git clone - Make a copy of an entire Git repository, including the history, onto your own computer
+
+git checkout 'commit_id' - Temporarily reset all files in a directory to their state at the time of a specific commit
+
+git log - Show the commits made in this repository, starting with the most recent
+
+
+
+Reflection:
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 IT quickly identified the section which contained the error. This meant that I did not have to spend alot of time searching for the errors.
 

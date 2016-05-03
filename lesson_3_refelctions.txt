@@ -6,3 +6,4 @@ git remote -v - verbose showing the push and pull
 
 
 Reflections:
+
